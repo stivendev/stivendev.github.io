@@ -2,21 +2,25 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="imagen/png" href="https://i.imgur.com/rL4Ffuj.png" />
-    <link rel="stylesheet" href="css/estilos.css" />
     <title>STIVEN DEV</title>
+    <link rel="icon" type="imagen/png" href="https://i.imgur.com/rL4Ffuj.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div>
-        <figure>
+        <figure class="logo">
           <img
             src="https://i.imgur.com/rL4Ffuj.png"
             alt="Logo de https://stivendev.github.io"
             width="300"
           />
         </figure>
-        <nav>
+        <nav class="menu">
           <ul>
             <li>
               <a href="#portafolio">Portafolio</a>
@@ -31,67 +35,68 @@
         </nav>
       </div>
     </header>
-    <section>
+    <section class="hero">
       <h1>
         Hola! Soy <strong>Stiven</strong> <br />developer <br />
         newcomer
       </h1>
       <img
         src="https://i.imgur.com/xN1fXj1.jpg"
-        alt="Portada de https://stivendev.github.io"
         width="200"
+        alt="Portada de https://stivendev.github.io"
       />
-      imagen de portada
     </section>
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
       <h2>
         Portafolio (Proyectos Destacados)
       </h2>
-      <article>
-        <figure>
-          <img
-            src="https://i.imgur.com/inIqJTr.png"
-            alt="Img Platzi video https://stivendev.github.io"
-            width="300"
-          />
-        </figure>
-        <h3>Platzi Video</h3>
-        <h6>React Native / React</h6>
-        <p>
+      <article class="project">
+        <h3 class="project-title">Platzi Video</h3>
+        <h6 class="project-course">React Native / React</h6>
+        <p class="project-date">
           <small><strong>Fecha:</strong> 01/07/2018</small>
         </p>
-        <p>
+        <p class="project-url">
           <small><strong>Puedes verlo en:</strong> www.platzi.com/native</small>
         </p>
-        <p>
+        <p class="project-description">
           Platzi video fue el resultado de 3 meses de trabajo para crear la
           mejor app para enseñar el funcionamiento de React y React Native.
           Desde crear un vista-detalle hasta patrones avanzados de navegación,
           este proyecto ha sido el ejemplo de futuros creadores de aplicaciones
           multiplataforma
         </p>
+        <figure class="project-imageContainer">
+          <img
+            class="project-image"
+            src="https://i.imgur.com/inIqJTr.png"
+            alt="Img Platzi video https://stivendev.github.io"
+            width="300"
+          />
+        </figure>
       </article>
     </section>
     <section id="eventos">
       <h2>Más sobre mi experiencia</h2>
-      <article>
-        <figure>
-          <img src="" alt="" />
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img class="event-image" src="" alt="" />
         </figure>
-        <h3>PlatziConf México 2018</h3>
-        <p>
+        <h3 class="event-title">PlatziConf México 2018</h3>
+        <p class="event-description">
           El evento más grande sobre gente que quiere aprender más de internet.
           En esté evento te comparto como tener una vida de constante
           aprendizaje.
         </p>
         <a
+          class="event-url"
           href="https://www.youtube.com/watch?v=BIS7cWGgJg0&t=15s"
           target="_blank"
           >Ver Plática</a
         >
       </article>
     </section>
-    <section id="contacto">
+    <section id="contacto" class="contact">
       <form action="/suscripcion">
         <h3>¿Creamos algo juntos?</h3>
         <input type="text" placeholder="Inserta tu email" />
@@ -99,6 +104,6 @@
       </form>
     </section>
 
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
   </body>
 </html>
