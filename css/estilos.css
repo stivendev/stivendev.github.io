@@ -5,7 +5,7 @@ propiedades
 valores*/
 
 body {
-  background: rgba(56, 148, 52, 0.452);
+  background: #ffffff;
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -23,6 +23,39 @@ h1 {
   font-size: 40px;
   line-height: 1.5;
   letter-spacing: -0.2px;
-  text-transform: capitalize;
-  text-decoration: dashed;
+  color: #ffffff;
+}
+
+h1 strong {
+  color: black;
+}
+.hero {
+  height: 300px;
+  background-image: url("https://i.imgur.com/xN1fXj1.jpg");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: #fab328;
+}
+
+.project {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.project-details {
+  width: 500px;
+}
+
+.project-imageContainer {
+  width: 500px;
+}
+
+.header {
+  background-color: #fab328;
+  color: #000;
+}
+
+.header a {
+  color: aliceblue;
+  text-decoration: none;
 }
