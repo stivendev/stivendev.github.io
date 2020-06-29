@@ -31,6 +31,17 @@ h1 {
 h1 strong {
   color: black;
 }
+
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
 .hero {
   height: 300px;
   background-image: url("https://i.imgur.com/xN1fXj1.jpg");
@@ -42,7 +53,6 @@ h1 strong {
 
 .portfolio {
   background: #fafafa;
-  background: red;
 }
 
 .project {
@@ -60,13 +70,45 @@ h1 strong {
 .project-imageContainer {
   width: 500px;
 }
-
+.menu {
+  height: inherit;
+}
 .header {
   background-color: #fab328;
   color: #000;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
 }
 
 .header a {
   color: aliceblue;
   text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  margin: 5px;
+
+  flex-shrink: 0;
 }
