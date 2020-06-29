@@ -112,3 +112,13 @@ figure {
 
   flex-shrink: 0;
 }
+
+.footer {
+  background-color: #fab328;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+}
