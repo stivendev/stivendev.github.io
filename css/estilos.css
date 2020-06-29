@@ -81,7 +81,8 @@ figure {
   color: #000;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  height: 100px;
+  align-items: center;
 }
 
 .header a {
@@ -121,7 +122,4 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.footer img {
 }
